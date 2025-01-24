@@ -6,6 +6,8 @@ const cors=require('cors')
 const bodyParser=require('body-parser')
 const app=express()
 require("dotenv").config()
+
+
 //middleware for converting js objects into json
 app.use(bodyParser.json())
 app.use(cors())
